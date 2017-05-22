@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设置所需要的属性-->
+    <declare-styleable name="Topbar">
+        <attr name="title" format="string"/>
+        <attr name="titleTextSize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftText" format="string"/>
+
+        <attr name="rightBackground" format="reference|color"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightText" format="string"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="AuthCodeView">
+
+        <attr name="titleText" format="string" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleTextSize" format="dimension" />
+    </declare-styleable>
+</resources>

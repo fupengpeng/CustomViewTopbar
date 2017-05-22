@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fupengpeng.topbar.MainActivity">
+
+    <com.fupengpeng.topbar.view.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        custom:leftBackground="@color/colorAccent"
+        custom:leftText="@string/app_name"
+        custom:leftTextColor="#ffffff"
+        custom:rightBackground="@color/colorPrimary"
+        custom:rightText="more"
+        custom:rightTextColor="#ffffff"
+        custom:title="自定义view"
+        custom:titleTextColor="#123123"
+        custom:titleTextSize="15sp"
+
+        />
+
+
+
+</RelativeLayout>
