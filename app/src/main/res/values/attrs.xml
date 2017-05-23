@@ -15,8 +15,6 @@
         <attr name="rightText" format="string"/>
     </declare-styleable>
 
-
-
     <declare-styleable name="AuthCodeView">
 
         <attr name="titleText" format="string" />
