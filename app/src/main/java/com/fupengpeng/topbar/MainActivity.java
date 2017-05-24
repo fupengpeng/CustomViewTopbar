@@ -26,6 +26,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        topbar.setLeftIsVisable(false);//调用自定义view的方法实现对其进行控制
+//        topbar.setLeftIsVisable(false);//调用自定义view的方法实现对其进行控制
     }
 }
